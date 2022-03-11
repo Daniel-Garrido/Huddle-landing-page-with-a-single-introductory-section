@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@300;600;700&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Inter:wght@300;600;700&family=Lexend+Deca&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+:root{
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%);
+    --font-os:'Open Sans', sans-serif;
+    --font-poppins: 'Poppins', sans-serif;
+}
+
+body{
+    font-family: var(--font-poppins);    
+
+    background-image: url("images/bg-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: var(--Violet);
+   
+}
+
+main{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container{
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/*footer*/
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
